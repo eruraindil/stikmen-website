@@ -4,14 +4,14 @@
 
 /* TEAM */
   Partner: Matthew Roberts
-  Site:			mroberts.me
-  Twitter:		@eruraindil
-  Location:		Guelph, Ontario
-  
+  Site:      mroberts.me
+  Twitter:    @eruraindil
+  Location:    Saskatoon, Saskatchewan
+
   Partner: Malcolm McCulloch
-  Site:			malcolmm.cc
-  Twitter:		@mcallum
-  Location:		Waterloo, Ontario
+  Site:      malcolmm.cc
+  Twitter:    @mcallum
+  Location:    Waterloo, Ontario
 
 /* THANKS */
   Names (& URL):
