@@ -1,0 +1,156 @@
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+
+/*
+@import url('fonts.css');
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:400,700);
+
+body {
+	background:#1A1A1A;
+	color:#333;
+/*
+	font-family: "HelveticaNeueRegular";
+*/	font-family: "Cabin", sans-serif;
+
+	margin-bottom:40px;
+/*
+	color:#F0F0F0;
+*/
+}
+header #logo {
+	text-align:right;
+	height:220px;
+}
+
+header #title {
+	text-align:left;
+	height:220px;
+	position:relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Cabin Condensed", sans-serif;
+}
+
+header #title h1 {
+	position:absolute;
+	bottom:0;
+	color:#BFBFBF;
+	font-variant:small-caps;
+	font-size:60px;
+	line-height:50px;
+	margin-bottom:0;
+}
+
+#myTab {
+	margin-bottom:0;
+}
+
+#contact .span4 .navbar {
+	padding:5px;
+}
+
+.content {
+	padding-top:10px;
+	background:#FFF;
+	-webkit-border-radius:0 0 6px 6px;
+	-moz-border-radius:0 0 6px 6px;
+	border-radius:0 0 6px 6px;
+}
+
+#home .hero-unit {
+	margin:0 10px 10px;
+}
+
+.padding {
+	padding-right:10px;
+}
+
+
+#projects_menu_container {
+	min-height:1px;
+}
+
+#projects_menu {
+	top: 10px;
+	width:110px;
+	background-color: white;
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+}
+
+#projects_menu > li > a {
+	display: block;
+	margin-bottom:-1px;
+	padding: 8px 14px;
+	border: 1px solid #E5E5E5;
+}
+
+#projects_menu > li > a:hover {
+	border:1px solid #E5;
+}
+
+#projects_menu > li.active > a {
+	border:1px solid #08C;
+}
+
+#projects_menu > li:first-child > a {
+	border-top:1px solid #DDD;
+}
+#projects_menu > li:first-child > a:hover {
+	border-top:1px solid #E5;
+}
+ 
+#projects_menu > li:first-child.active > a {
+	border-top:1px solid #08C;
+}
+
+#projects_menu > li:last-child > a {
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+}
+
+section { padding:0 15px 15px 15px;}
+
+.clear {clear:both;}
+
+a.twitter {
+	background:url('../	img/t_black_16x16.png') no-repeat left top;
+	padding-left:14px;
+}
+
+.contact-img { margin-bottom:20px;}
+
+/*
+div.details {
+	padding:0 20px;
+}
+*/
+
+#contact h2 {
+	margin-left:10px;
+}
+
+#contact .span2 {
+	margin-left:30px;
+	margin-right:-10px;
+	width:140px;
+}
+
+footer {
+	background:#1A1A1A;
+	color:#F0F0F0;
+	text-align:center;
+	line-height:40px;
+	height:40px;
+}
+
+footer .span2 {
+	text-align:right;
+}

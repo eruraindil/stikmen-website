@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /napea/
+Disallow: /parrsboro/
+Disallow: /rayrobsurveys/
